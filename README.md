@@ -1,3 +1,4 @@
 # Panel-de-control
 Panel de control.
-Viva espiña
+lenguaje de git
+modificación del archivo
