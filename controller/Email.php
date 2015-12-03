@@ -6,7 +6,7 @@ class Email {
 
 	// IDEA meter en un fichero único de configuración
 	
-	const ADMIN_EMAIL = "jasvazquez@iesalandalus.com";
+	const ADMIN_EMAIL = "jesusemilioyogi@gmail.com";
 	const FROM_EMAIL = "admin@miproyecto.com";
 	const FROM_NAME  = "Administrador del sitio";
 	
@@ -32,8 +32,8 @@ class Email {
 		// TODO quitar clave email de aquí
 		
 		$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
-		  ->setUsername('MICORREO@gmail.com')
-		  ->setPassword('LACLAVEULTRASECRETA');
+		  ->setUsername('ticgrupo32015@gmail.com')
+		  ->setPassword('alandalus');
 
 		$mailer = Swift_Mailer::newInstance($transport);
 
